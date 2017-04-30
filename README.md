@@ -34,7 +34,7 @@ export default class App extends Component {
     return (
       <Likely size={'small'} skin={'light'}>
         <Facebook>Share on Facebook</Facebook>
-        Twitter via="your_twitter_account">Share on Twitter</Twitter>
+        <Twitter via="your_twitter_account">Share on Twitter</Twitter>
         <Gplus>Share on Google Plus</Gplus>
         <Vkontakte>Share on Vkontakte</Vkontakte>
         <Pinterest media="https://example.com/image.jpg">Share on Pinterest</Pinterest>
