@@ -32,18 +32,16 @@ import Likely, {
 export default class App extends Component {
   render() {
     return (
-      <div style={{margin: '20px 0'}}>
-        <Likely size={'small'} skin={'light'}>
-          <Facebook>Share on Facebook</Facebook>
-          Twitter via="your_twitter_account">Share on Twitter</Twitter>
-          <Gplus>Share on Google Plus</Gplus>
-          <Vkontakte>Share on Vkontakte</Vkontakte>
-          <Pinterest media="https://example.com/image.jpg">Share on Pinterest</Pinterest>
-          <Odnoklassniki>Share on Odnoklassniki</Odnoklassniki>
-          <Telegram text="text example">Share on Telegram</Telegram>
-          <Linkedin>Share on Linkedin</Linkedin>
-        </Likely>
-      </div>
+      <Likely size={'small'} skin={'light'}>
+        <Facebook>Share on Facebook</Facebook>
+        Twitter via="your_twitter_account">Share on Twitter</Twitter>
+        <Gplus>Share on Google Plus</Gplus>
+        <Vkontakte>Share on Vkontakte</Vkontakte>
+        <Pinterest media="https://example.com/image.jpg">Share on Pinterest</Pinterest>
+        <Odnoklassniki>Share on Odnoklassniki</Odnoklassniki>
+        <Telegram text="text example">Share on Telegram</Telegram>
+        <Linkedin>Share on Linkedin</Linkedin>
+      </Likely>
     )
   }
 }
