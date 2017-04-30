@@ -10,7 +10,7 @@
     "ilyabirman-likely": "2.2.2"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.0.0",
     "react": "^0.14 || ^15.0.0"
   },
   "devDependencies": {
