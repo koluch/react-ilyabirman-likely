@@ -5,3 +5,7 @@ src
 .gitignore
 gulpfile.js
 yarn.lock
+.idea
+*.iml
+node_modules
+npm-debug.log
