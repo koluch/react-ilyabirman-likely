@@ -18,7 +18,7 @@ gulp.task('es5', ['clean'], function () {
       presets: ['react', 'es2015'],
       plugins: ['transform-class-properties', 'transform-object-rest-spread'],
     }))
-    // .pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest('dist/es5'))
 })
 
