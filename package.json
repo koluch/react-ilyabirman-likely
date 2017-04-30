@@ -1,0 +1,52 @@
+{
+  "name": "react-ilyabirman-likely",
+  "version": "1.0.0",
+  "description": "ReactJS wrapper for Likely library",
+  "main": "dist/es5/index.js",
+  "module": "dist/es6/index.js",
+  "author": "Nikolai Mavrenkov <koluch@koluch.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "ilyabirman-likely": "2.2.2"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^0.14 || ^15.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "del": "^2.2.2",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "lint": "eslint src/**.js",
+    "build": "gulp",
+    "debug": "gulp debug"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "social",
+    "ui",
+    "facebook",
+    "twitter",
+    "gplus",
+    "vkontakte",
+    "pinterest",
+    "odnoklassniki",
+    "telegram",
+    "linkedin"
+  ]
+}
