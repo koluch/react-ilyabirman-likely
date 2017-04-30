@@ -1,1 +1,7 @@
 src
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+gulpfile.js
+yarn.lock
