@@ -30,6 +30,10 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/koluch/react-ilyabirman-likely.git"
+  },
   "scripts": {
     "lint": "eslint src/**.js",
     "build": "gulp",
