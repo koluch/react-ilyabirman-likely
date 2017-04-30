@@ -1,6 +1,6 @@
 {
   "name": "react-ilyabirman-likely",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS wrapper for Likely library",
   "main": "dist/es5/index.js",
   "module": "dist/es6/index.js",
